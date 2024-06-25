@@ -2,7 +2,7 @@
 
 This repository contains a sample code for the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) interface to work. This code is developed to receive data using a LoRa module and write these data to the serial port screen in JSON format.
 
-You can view this text in Turkish by clicking [here](README.md).
+You can view this text in Turkish by clicking [here](README_TR.md).
 
 ## Notes
 For the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) application to work, the DataPack structure in the code must be used without any changes. Unused data should be left empty and still written to the serial port screen in JSON format.
