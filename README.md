@@ -12,6 +12,11 @@ For the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkapland
 - Data reception using the LoRa module.
 - Writing received data to the serial port screen in JSON format.
 
+## Sample Serial Port Output
+`{"name":"Rocket","packageNumber":1,"latitude":41.0048519,"longitude":28.9709240,"speed":227,"pressure":100801.1,"altitude":0.10569,"temperature": 26.03,"pitch":0,"roll":-5.6875,"yaw":-1.0625,"pyroTrigger":false,"flightStatus":true}`
+
+Data should be written to the serial port screen instantly in this way. For example, if 'pyrotrigger' data will not be used, the data should be kept in json, but its content should be left blank.
+
 ## Requirements
 
 - Arduino

@@ -10,6 +10,11 @@ Bu repo, [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplan
 - LoRa modülü kullanarak veri alımı.
 - Alınan verilerin JSON formatında seri port ekranına yazılması.
 
+## Örnek Seri Port Çıktısı
+`{"name":"Rocket","packageNumber":1,"latitude":41.0048519,"longitude":28.9709240,"speed":227,"pressure":100801.1,"altitude":0.10569,"temperature":26.03,"pitch":0,"roll":-5.6875,"yaw":-1.0625,"pyroTrigger":false,"flightStatus":true}`
+
+Seri port ekranına anlık olarak bu şekilde veriler yazılmalıdır. Örneğin `pyrotrigger` verisi kullanılmayacaksa, veri json içerisinde bulundurulmalı fakat içeriği boş bırakılarak devam edilmelidir.
+
 ## Gereksinimler
 
 - Arduino
