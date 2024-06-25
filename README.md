@@ -1,38 +1,38 @@
 # Rocket Ground Station Arduino Code
 
-Bu repo, [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) arayüzün çalışabilmesi için örnek bir kod içermektedir. Bu kod, bir LoRa modülü kullanarak veri almak ve bu verileri JSON formatında seri port ekranına yazmak için geliştirilmiştir. 
+This repository contains a sample code for the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) interface to work. This code is developed to receive data using a LoRa module and write these data to the serial port screen in JSON format.
 
-## Notlar
-[mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) uygulamasının çalışması için kod içeriğindeki DataPack'in değiştirilmeden aynı yapıdan kullanılması gerekmektedir. Kullanılmayacak veriler boş bırakılıp seri port ekranına yine de json formatında yazdırılmalıdır.
+You can view this text in Turkish by clicking [here](README.md).
 
-## Özellikler
+## Notes
+For the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) application to work, the DataPack structure in the code must be used without any changes. Unused data should be left empty and still written to the serial port screen in JSON format.
 
-- LoRa modülü kullanarak veri alımı.
-- Alınan verilerin JSON formatında seri port ekranına yazılması.
+## Features
 
-## Gereksinimler
+- Data reception using the LoRa module.
+- Writing received data to the serial port screen in JSON format.
+
+## Requirements
 
 - Arduino
-- LoRa E32 modülü
-- ArduinoJson kütüphanesi
-- SoftwareSerial kütüphanesi
+- LoRa E32 module
+- ArduinoJson library
+- SoftwareSerial library
 
-## Kurulum
+## Installation
 
-1. Arduino IDE'yi indirin ve yükleyin.
-2. Arduino kartınızı bilgisayarınıza bağlayın.
-3. Arduino IDE'yi açın ve bu projeyi yükleyin.
-4. Gerekli kütüphaneleri yükleyin:
+1. Download and install the Arduino IDE.
+2. Connect your Arduino board to your computer.
+3. Open the Arduino IDE and load this project.
+4. Install the required libraries:
    - `LoRa_E32`
    - `SoftwareSerial`
    - `ArduinoJson`
 
-## Kullanım
+## Usage
 
-1. `mySerial` için gerekli pinleri ayarlayın.
-2. LoRa modülünüzü ayarlayın ve `LORA_ADDR` ve `LORA_CH` parametrelerini güncelleyin.
-3. Kodu Arduino kartınıza yükleyin.
-4. Seri monitörü açın ve verilerin JSON formatında yazdırıldığını görün.
+1. Set the necessary pins for `mySerial`.
+2. Configure your LoRa module and update the `LORA_ADDR` and `LORA_CH` parameters.
+3. Upload the code to your Arduino board.
+4. Open the serial monitor and see the data written in JSON format.
 
-## Notlar
-1. JSON içinde bulunan kullanılmayan veriler Python programının hata vermemesi için boş bırakılabilir.
