@@ -1,5 +1,7 @@
 # Rocket Ground Station Arduino Code
 
+![Logo](logo.png)
+
 This repository contains a sample code for the [mertkaplandar/rocket-ground-station-app](https://github.com/mertkaplandar/rocket-ground-station-app) interface to work. This code is developed to receive data using a LoRa module and write these data to the serial port screen in JSON format.
 
 You can view this text in Turkish by clicking [here](README_TR.md).
